@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+<script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Australian IPTV Setup Guides & NBN DNS Optimization 2026</title>
+  <meta name="description" content="Step-by-step setup tutorials for Firestick, Smart TV, TiviMate, Apple TV, and anti-buffering DNS fixes for Telstra, Optus, TPG, and Aussie Broadband NBN." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /></noscript>
+  <link rel="stylesheet" href="assets/css/style.css?v=46" />
+  <link rel="canonical" href="https://4kaustraliaiptv.com/setup.html" />
+  <link rel="alternate" hreflang="en-AU" href="https://4kaustraliaiptv.com/setup.html" />
+  <link rel="alternate" hreflang="x-default" href="https://4kaustraliaiptv.com/setup.html" />
+  <meta property="og:image" content="https://4kaustraliaiptv.com/assets/og-au.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://4kaustraliaiptv.com/assets/og-au.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="favicon-48.png" sizes="48x48" type="image/png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://4kaustraliaiptv.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Setup",
+      "item": "https://4kaustraliaiptv.com/setup.html"
+    }
+  ]
+}
+</script>
+<meta property="og:title" content="Australian IPTV Setup Guides &amp; NBN DNS Optimization 2026" />
+<meta property="og:description" content="Step-by-step setup tutorials for Firestick, Smart TV, TiviMate, Apple TV, and anti-buffering DNS fixes for Telstra, Optus, TPG, and Aussie Broadband NBN." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_AU" />
+<meta property="og:url" content="https://4kaustraliaiptv.com/setup.html" />
+<meta property="og:image" content="https://4kaustraliaiptv.com/assets/og-au.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://4kaustraliaiptv.com/assets/og-au.png" />
+</head>
+<body>
+  <div class="bg-glow-orb bg-orb-1"></div>
+  <div class="bg-glow-orb bg-orb-2"></div>
+  <div class="bg-grid-overlay"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <div class="logo-badge"><i class="fa-solid fa-earth-oceania"></i></div>
+        <div class="logo-text">
+          <span class="logo-brand">IPTV<span>AUSTRALIA</span></span>
+          <span class="logo-sub">Setup Center</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="reseller.html" class="nav-link"><i class="fa-solid fa-store"></i> Reseller</a>
+        <a href="providers.html" class="nav-link"><i class="fa-solid fa-tv"></i> Providers</a>
+        <a href="channels.html" class="nav-link"><i class="fa-solid fa-futbol"></i> Sports</a>
+        <a href="setup.html" class="nav-link active"><i class="fa-solid fa-wrench"></i> Setup</a>
+        <a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="index.html#free-trial" class="btn btn-gold btn-sm"><i class="fa-solid fa-play"></i> Free AU Trial</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-section" style="padding:4rem 0 6rem;">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge badge-glow-cyan"><i class="fa-solid fa-wrench"></i> Step-By-Step Tutorials</span>
+        <h1 class="hero-title" style="font-size:3rem;">Australian Device <span class="gradient-text">Setup Hub</span></h1>
+        <p class="section-subtitle">Get the optimal 4K streaming experience on Fire TV Stick, Apple TV, Smart TV, or Android TV. Learn how to configure Cloudflare 1.1.1.1 DNS on Australian NBN routers.</p>
+      </div>
+
+      
+      <!-- Comprehensive Hardware & App Showcase -->
+      <div style="margin-bottom:3.5rem;">
+        <h3 style="font-size:1.6rem; color:#fff; text-align:center; margin-bottom:1.5rem;"><i class="fa-solid fa-tv" style="color:var(--primary); margin-right:0.5rem;"></i> Supported Australian Hardware (Select Your Device)</h3>
+        
+        <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1.5rem; margin-bottom:2.5rem;">
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/firestick.webp" alt="Firestick 4K" style="max-height:75px; object-fit:contain;" width="1014" height="570" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Amazon Fire TV Stick</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Fire TV Stick 4K, 4K Max & Cube. Supports TiviMate & IPTV Smarters.</p>
+            <a href="devices/iptv-on-amazon-firestick-australia/index.html" class="btn btn-primary btn-sm btn-block">Firestick Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/samsungsmarttv.webp" alt="Samsung Smart TV" style="max-height:75px; object-fit:contain;" width="1400" height="933" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Samsung Smart TV</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Tizen OS (2018-2026). Install IBO Player directly from Samsung Apps.</p>
+            <a href="devices/iptv-on-samsung-smart-tv-tizen-australia/index.html" class="btn btn-primary btn-sm btn-block">Samsung Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/LG TV (webOS).webp" alt="LG webOS TV" style="max-height:75px; object-fit:contain;" width="961" height="633" loading="lazy" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">LG webOS OLED TV</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">webOS 5.0 - 24. Install IBO Player or Smart IPTV with Magic Remote.</p>
+            <a href="devices/iptv-on-lg-smart-tv-webos-australia/index.html" class="btn btn-primary btn-sm btn-block">LG TV Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/appletv.webp" alt="Apple TV 4K" style="max-height:75px; object-fit:contain;" width="1110" height="799" loading="lazy" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Apple TV 4K & iOS</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">tvOS 16/17/18. Stream with iPlayTV, IPTVX, or UHF Player in Dolby Vision.</p>
+            <a href="devices/iptv-on-apple-tv-tvos-australia/index.html" class="btn btn-primary btn-sm btn-block">Apple TV Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/Android TV.webp" alt="Android TV" style="max-height:75px; object-fit:contain;" width="705" height="601" loading="lazy" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Android TV & Google TV</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Chromecast, Sony Bravia, TCL, Hisense with TiviMate & full EPG sync.</p>
+            <a href="devices/iptv-on-android-tv-box-australia/index.html" class="btn btn-primary btn-sm btn-block">Android TV Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/Formuler.webp" alt="Formuler Z11" style="max-height:75px; object-fit:contain;" width="500" height="500" loading="lazy" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Formuler Z11 Pro Max</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Dedicated IPTV hardware with MyTVOnline 3 portal and DVR recording.</p>
+            <a href="devices/formuler-z-mol3-iptv-australia/index.html" class="btn btn-primary btn-sm btn-block">Formuler Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/nvidiashield.webp" alt="Nvidia Shield" style="max-height:75px; object-fit:contain;" width="500" height="600" loading="lazy" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Nvidia Shield Pro</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Tegra X1+ powerhouse with AI 4K upscaling for footy and live sports.</p>
+            <a href="devices/iptv-on-android-tv-box-australia/index.html" class="btn btn-primary btn-sm btn-block">Shield Guide →</a>
+          </div>
+
+          <div class="glass-card" style="text-align:center; padding:1.75rem 1rem;">
+            <div style="height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:0.75rem;">
+              <img src="public/images/chromecast.webp" alt="Chromecast 4K" style="max-height:75px; object-fit:contain;" width="512" height="512" loading="lazy" decoding="async" />
+            </div>
+            <h4 style="color:#fff; font-size:1.1rem; margin-bottom:0.3rem;">Chromecast with Google TV</h4>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Plug into any HDMI port with Voice Remote and Google Play Store.</p>
+            <a href="devices/iptv-on-android-tv-box-australia/index.html" class="btn btn-primary btn-sm btn-block">Chromecast Guide →</a>
+          </div>
+        </div>
+
+        <!-- Recommended Apps Row -->
+        <div class="glass-card" style="padding:1.75rem; border-color:var(--border-mauve);">
+          <h4 style="color:#fff; font-size:1.2rem; margin-bottom:1rem; text-align:center;"><i class="fa-solid fa-shapes" style="color:var(--secondary); margin-right:0.4rem;"></i> Recommended Streaming Apps</h4>
+          <div style="display:grid; grid-template-columns:repeat(5, 1fr); gap:1rem; text-align:center;">
+            <div style="background:rgba(0,0,0,0.3); padding:0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <img src="public/images/Tivimate-app-logo.webp" alt="TiviMate" style="height:40px; object-fit:contain; margin-bottom:0.35rem;" width="901" height="901" loading="lazy" decoding="async" />
+              <div style="color:#fff; font-size:0.85rem; font-weight:700;">TiviMate</div>
+              <span style="font-size:0.72rem; color:var(--aus-gold);">#1 Choice Android</span>
+            </div>
+            <div style="background:rgba(0,0,0,0.3); padding:0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <img src="public/images/Ibo-Player-Pro-app-logo.webp" alt="IBO Player" style="height:40px; object-fit:contain; margin-bottom:0.35rem;" width="512" height="512" loading="lazy" decoding="async" />
+              <div style="color:#fff; font-size:0.85rem; font-weight:700;">IBO Player Pro</div>
+              <span style="font-size:0.72rem; color:var(--primary);">#1 Choice Samsung/LG</span>
+            </div>
+            <div style="background:rgba(0,0,0,0.3); padding:0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <img src="public/images/Smart-IPTV-app-logo.webp" alt="Smart IPTV" style="height:40px; object-fit:contain; margin-bottom:0.35rem;" width="512" height="512" loading="lazy" decoding="async" />
+              <div style="color:#fff; font-size:0.85rem; font-weight:700;">Smart IPTV</div>
+              <span style="font-size:0.72rem; color:var(--secondary);">MAC Address Active</span>
+            </div>
+            <div style="background:rgba(0,0,0,0.3); padding:0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <img src="public/images/Hot-Player-app-logo.webp" alt="Hot Player" style="height:40px; object-fit:contain; margin-bottom:0.35rem;" width="512" height="512" loading="lazy" decoding="async" />
+              <div style="color:#fff; font-size:0.85rem; font-weight:700;">Hot Player</div>
+              <span style="font-size:0.72rem; color:var(--aus-green);">Multi-Screen</span>
+            </div>
+            <div style="background:rgba(0,0,0,0.3); padding:0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+              <img src="public/images/Smart-STB-app-logo.webp" alt="Smart STB" style="height:40px; object-fit:contain; margin-bottom:0.35rem;" width="512" height="512" loading="lazy" decoding="async" />
+              <div style="color:#fff; font-size:0.85rem; font-weight:700;">Smart STB</div>
+              <span style="font-size:0.72rem; color:var(--primary);">Portal Emulation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detailed DNS Optimization Guide -->
+      <div class="glass-card" style="margin-bottom:3rem; border-color:var(--border-gold);">
+        <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem;">
+          <i class="fa-solid fa-shield-virus" style="color:var(--aus-gold); font-size:1.8rem;"></i>
+          <h2 style="font-size:1.5rem;">The Australian NBN DNS Anti-Buffering Guide</h2>
+        </div>
+        <p style="color:var(--text-muted); line-height:1.7; margin-bottom:1.25rem;">
+          Major Australian internet providers (including <strong>Telstra, Optus, TPG, and Vodafone</strong>) occasionally apply aggressive transparent DNS caches during peak prime-time hours (Friday to Sunday evening footy). Setting your DNS to Cloudflare or Google Anycast bypasses this limitation, delivering instant channel switching and smooth streaming:
+        </p>
+        <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:1.5rem; background:rgba(0,0,0,0.35); padding:1.5rem; border-radius:var(--radius-md); border:1px solid var(--border-color);">
+          <div>
+            <h3 class="h4-style" style="color:var(--primary); margin-bottom:0.4rem;"><i class="fa-solid fa-cloud"></i> Cloudflare 1.1.1.1 (Recommended for Sydney/Melbourne)</h3>
+            <p style="font-size:0.88rem; color:var(--text-dim); margin-bottom:0.5rem;">Primary DNS: <strong>1.1.1.1</strong> | Secondary DNS: <strong>1.0.0.1</strong></p>
+            <span style="font-size:0.8rem; color:var(--secondary);"><i class="fa-solid fa-check"></i> Sub-5ms response time on all Australian NBN nodes.</span>
+          </div>
+          <div>
+            <h4 style="color:var(--aus-gold); margin-bottom:0.4rem;"><i class="fa-brands fa-google"></i> Google Secure DNS (Recommended for Regional AU)</h4>
+            <p style="font-size:0.88rem; color:var(--text-dim); margin-bottom:0.5rem;">Primary DNS: <strong>8.8.8.8</strong> | Secondary DNS: <strong>8.8.4.4</strong></p>
+            <span style="font-size:0.8rem; color:var(--secondary);"><i class="fa-solid fa-check"></i> Maximum compatibility across Telstra 5G & Starlink AU.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Setup FAQ Links -->
+      <div style="text-align:center;">
+        <a href="index.html#setup" class="btn btn-primary btn-lg"><i class="fa-solid fa-tv"></i> View Device Installation Steps</a>
+        <a href="https://wa.me/212625218443?text=Hi%20I%20need%20help%20setting%20up%20my%20device" target="_blank" class="btn btn-whatsapp btn-lg" style="margin-left:1rem;"><i class="fa-brands fa-whatsapp"></i> Get Live Aussie Setup Help</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container" style="text-align:center;">
+      <p>&copy; 2026 IPTV Australia. Setup & NBN Technical Center.</p><div class="footer-social" aria-label="Social profiles"><a href="https://www.facebook.com/profile.php?id=61591545360371" target="_blank" rel="noopener noreferrer me" aria-label="Facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="https://www.instagram.com/streamb4tv/" target="_blank" rel="noopener noreferrer me" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="https://x.com/streamb4t" target="_blank" rel="noopener noreferrer me" aria-label="X" title="X"><i class="fa-brands fa-x-twitter"></i></a><a href="https://discord.gg/BFr5HSZfk" target="_blank" rel="noopener noreferrer me" aria-label="Discord" title="Discord"><i class="fa-brands fa-discord"></i></a></div><div class="footer-legal"><a href="about/index.html">About</a><a href="privacy-policy/index.html">Privacy Policy</a><a href="terms-of-service/index.html">Terms of Service</a><a href="refund-policy/index.html">Refund Policy</a></div>
+    <p style="margin-top:.75rem;"><a href="https://wa.me/212625218443" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> +212 625 218 443</a> &nbsp;&middot;&nbsp; <a href="mailto:support@4kaustraliaiptv.com"><i class="fa-solid fa-envelope"></i> support@4kaustraliaiptv.com</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js?v=6"></script>
+</body>
+</html>
