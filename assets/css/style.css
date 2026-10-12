@@ -2663,7 +2663,7 @@ nav[aria-label="Breadcrumbs"] span[style*="primary"] { color: var(--ink) !import
 @media (max-width: 768px) {
   .glass-card a:not(.btn):not(.nav-link):not(.sport-tag), .step-card a, .section-header a:not(.btn) { display: inline-block; padding: .55rem 0; min-height: 40px; }
   .sport-tag { padding: .35rem .65rem !important; font-size: .8rem !important; }
-  .stat-label, .channel-quality-badge, [style*="font-size:0.6"], [style*="font-size:0.65"], [style*="font-size:0.7rem"], [style*="font-size:0.72"], [style*="font-size:0.74"] { font-size: .75rem !important; }
+  .stat-label, .channel-quality-badge, [style*="font-size:0.6"], [style*="font-size:0.65"], [style*="font-size:0.7rem"], [style*="font-size:0.72"], [style*="font-size:0.74"] { font-size: .8125rem !important; }
   .custom-range { height: 8px; }
   .custom-range::-webkit-slider-thumb { width: 26px; height: 26px; }
   .footer-links-list a { display: inline-block; padding: .4rem 0; }
@@ -3334,8 +3334,8 @@ h3.h4-style { font-size: 1rem !important; line-height: 1.35; font-weight: 700; l
 @media (max-width: 768px) { .cookie-banner { left: .6rem; right: .6rem; max-width: none; bottom: 88px; } }
 @media (prefers-reduced-motion: reduce) { .cookie-banner { transition: none; } }
 
-/* ==== small phones: header must fit 320-400px ==== */
-@media (max-width: 400px) {
+/* ==== small phones: header must fit 320-480px ==== */
+@media (max-width: 480px) {
   .site-header .container { gap: .4rem; }
   .site-logo { flex-shrink: 1; min-width: 0; }
   .site-logo .logo-brand, .site-logo .logo-text { font-size: .98rem; }
@@ -3345,3 +3345,29 @@ h3.h4-style { font-size: 1rem !important; line-height: 1.35; font-weight: 700; l
   .header-actions .btn-outline[data-open-modal="trial"] { padding: .3rem .5rem; font-size: .74rem; min-height: 32px; }
 }
 @media (max-width: 340px) { .site-logo .logo-brand, .site-logo .logo-text { font-size: .88rem; } .header-actions .btn-outline[data-open-modal="trial"] { display: none !important; } }
+
+/* ==== mobile quality pass: readable sizes, touch targets, announcement bar ==== */
+@media (max-width: 768px) {
+  .sport-tag, .sport-tag span, .badge, .channel-quality-badge, .spec-title, .stat-label, .save-pill, .pricing-badge-popular, .region-code, .channel-info span, .provider-stars span, .pay-chip, .toast-time { font-size: .8125rem; }
+  table th { font-size: .8rem; }
+  .glass-card p, .glass-card a { font-size: max(.8125rem, 1em); }
+  .header-actions .btn-outline[data-open-modal="trial"] { min-height: 36px; }
+  .toast-close { min-width: 36px; min-height: 36px; }
+  .footer-social a, .social-links a, a[href*="x.com/"] { min-width: 40px; }
+  .footer-social a, .social-links a { min-width: 40px; min-height: 40px; display: inline-flex; align-items: center; justify-content: center; }
+}
+@media (max-width: 560px) {
+  .announcement-ticker { white-space: normal; }
+  .announcement-ticker > span:last-child { overflow: visible; text-overflow: clip; font-size: .8rem; line-height: 1.35; }
+}
+@media (max-width: 768px) {
+  .badge, .glass-card p, .glass-card .badge { font-size: .8125rem !important; }
+  input[type="range"].custom-range { height: 28px; padding: 10px 0; background-clip: content-box; }
+}
+@media (max-width: 768px) {
+  body span.badge[style], body .glass-card p[style], body .glass-card span[style], body .glass-card div[style*="font-size"] { font-size: max(.8125rem, 13px) !important; }
+}
+@media (max-width: 768px) {
+  #hardware-gallery .glass-card .badge, #hardware-gallery .glass-card p, #hardware-gallery .glass-card span { font-size: .8125rem !important; }
+}
+@media (max-width: 768px) { a.sport-tag { min-height: 40px; display: inline-flex; align-items: center; } }
